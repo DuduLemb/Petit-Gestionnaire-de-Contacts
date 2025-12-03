@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f7f7f7;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-container input, .form-container button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#contactList {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-item {
+    background: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+}
+
+.contact-item button {
+    margin-left: 10px;
+}
